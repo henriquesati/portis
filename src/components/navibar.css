@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(1, 0, 0);
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e2a2a;
+    color: #8b6c6c;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+  }
+  
+  /* Nova propriedade para alinhar à direita */
+  .navbar {
+    justify-content: flex-end;
+  }
+  
+  .navbar-content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #namelogo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 24px; /* Ajuste o tamanho da fonte */
+    color: #fff; /* Ajuste a cor */
+    font-weight: bold;
+    padding: 5px; /* Ajuste o preenchimento */
+    border: 1px solid #ccc; /* Ajuste a borda */
+  }

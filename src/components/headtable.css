@@ -1,0 +1,16 @@
+
+
+table {
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    width: 80%; /* Define uma largura para melhor controle da centralização */
+  }
+  
+  th {
+    text-align: center; /* Centraliza o texto dos headers */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td {
+    text-align: center; /* Alinha o texto das linhas à esquerda */
+    margin: 0 auto;;
+  }
